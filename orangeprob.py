@@ -3,7 +3,7 @@ import subprocess
 import os
 
 testcases = []
-inputfile = "input_vectors.txt"
+inputfile = "C:/iverilog/bin/input_vectors.txt"
 outputfile="C:/iverilog/bin/orangeoutput.txt"
 
 with open(inputfile, "w") as f:
@@ -63,3 +63,4 @@ try:
         i += 1
 except Exception as e:
     print(f"Something went wrong, try again? Error: {str(e)}")
+
